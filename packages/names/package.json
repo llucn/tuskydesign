@@ -1,21 +1,20 @@
 {
   "name": "@tuskdesign/names",
-  "version": "1.2.0",
+  "version": "2.1.0",
   "description": "",
+  "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "files": [
     "dist/**"
   ],
-  "scripts": {
-    "build": "tsc --build tsconfig.lib.json",
-    "typecheck": "tsc"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@tuskdesign/util": "1.0.0"
   },
   "devDependencies": {
     "@types/node": "18.16.9",
